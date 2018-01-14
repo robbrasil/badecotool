@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', 'EntriesController@home')->name('home');
+Route::get('/', 'EntriesController@index')->name('home');
 
-Route::get('/home', 'EntriesController@home');
+Route::get('/home', 'EntriesController@index');
 
 
 //Main table entries
